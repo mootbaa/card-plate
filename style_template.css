@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+}
+body {
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #17171d; /* Fallback */
+}
+
+/* Color Palette */
+/* Red: #ec3750 */
+/* Black: #17171d */
+/* Gray: #252429 */
+
+.flex {
+  display: flex;
+}
+
+.card {
+  width: 70vw;
+  height: 60vh;
+  margin: 15vw 15vw;
+  padding: 5vw;
+  background: white;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  border-radius: 30px;
+  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+.text {
+  flex-direction: column;
+  gap: 45px;
+}
+
+img {
+  height: 100%;
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 8px ;
+}
+
+h1.title {
+  font-size: 55px;
+  color: #ec3750;
+}
+
+.about {
+  margin-top: 45px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2.link {
+  margin: 5px 0 12px;
+  color: rgb(138, 132, 255) ;
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+h2.link:hover {
+  text-decoration-style: wavy;
+}
+body > div > div > div > h1 {
+  color: #ec3750;
+  font-size: 40px;
+}
